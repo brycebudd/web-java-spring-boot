@@ -11,7 +11,7 @@
         "machineConfigs": [
           {
             "limits": {
-              "ram": 1000
+              "ram": 4000
             },
             "name": "ws-machine",
             "type": "docker",
@@ -30,7 +30,7 @@
         "name": "web-java-spring-boot",
         "attributes": {
           "maven.artifactId": [
-            "gs-spring-boot"
+            "spring-boot-starter"
           ],
           "maven.packaging": [
             ""
@@ -48,7 +48,7 @@
             "java"
           ],
           "git.repository.remotes": [
-            "https://github.com/che-samples/web-java-spring-boot.git"
+            "https://github.com/brycebudd/web-java-spring-boot.git"
           ],
           "maven.groupId": [
             "org.springframework"
@@ -56,7 +56,7 @@
         },
         "type": "maven",
         "source": {
-          "location": "https://github.com/che-samples/web-java-spring-boot.git",
+          "location": "https://github.com/brycebudd/web-java-spring-boot.git",
           "type": "git",
           "parameters": {}
         },
